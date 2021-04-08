@@ -4,22 +4,22 @@ import image from "../../img/img.png";
 
 const BasicInfo = () => {
   return (
-    <div class='profile-content'>
-      <div class='tab-content p-0'>
-        <div class='tab-pane fade in active show' id='profile-about'>
-          <div class='table-responsive'>
-            <table class='table table-profile'>
+    <div className='profile-content'>
+      <div className='tab-content p-0'>
+        <div className='tab-pane fade in active show' id='profile-about'>
+          <div className='table-responsive'>
+            <table className='table table-profile'>
               <thead>
-                <tr className='align-middle'>
-                  <th className='align-middle'>
+                <tr>
+                  <th>
                     <img
                       src={image}
                       className='rounded mx-auto d-block img-size'
                       alt='myimage'
                     />
                   </th>
-                  <th>
-                    <h4>
+                  <th className='align-middle'>
+                    <h4 className='align-middle'>
                       Aldin Emšo <br></br>
                       <small>
                         BSc. ing. of Computer information technology (CIT)
@@ -30,23 +30,23 @@ const BasicInfo = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td class='field'>Job</td>
+                  <td className='field'>Job</td>
                   <td>Full stack developer at Ministry of Programming</td>
                 </tr>
                 <tr>
-                  <td class='field'>Location</td>
+                  <td className='field'>Location</td>
                   <td>Sarajevo, Bosnia and Herzegovina</td>
                 </tr>
                 <tr>
-                  <td class='field'>Birthdate</td>
+                  <td className='field align-middle'>Birthdate</td>
                   <td>01.02.1998.</td>
                 </tr>
                 <tr>
-                  <td class='field'>Language</td>
+                  <td className='field'>Language</td>
                   <td>English, Bosnian</td>
                 </tr>
                 <tr>
-                  <td class='field'>Education</td>
+                  <td className='field align-middle'>Education</td>
                   <td>
                     Srednjoškolski Centar Vogošća<br></br>
                     <small>2012.-2016.</small>
