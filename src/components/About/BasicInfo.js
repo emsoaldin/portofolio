@@ -42,7 +42,7 @@ const BasicInfo = () => {
                   <td>01.02.1998.</td>
                 </tr>
                 <tr>
-                  <td className='field'>Language</td>
+                  <td className='field'>Languages</td>
                   <td>English, Bosnian</td>
                 </tr>
                 <tr>
