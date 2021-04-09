@@ -14,8 +14,9 @@ const Skills = () => {
       <p>
         Right now, I'm mainly working with ReactJS for front-end developing, and
         NodeJS for back-end developing.<br></br>
-        Worked on many projects at the Faculty and outside of it. If you are
-        interested, check out few of them in 'My projects' section.
+        Worked on many projects at the Faculty and outside of it.{" "}
+        {/*If you are
+        interested, check out few of them in 'My projects' section.*/}
       </p>
       <p>
         Also I would like to point out that I really like working with other
